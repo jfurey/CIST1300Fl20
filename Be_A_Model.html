@@ -6,12 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Title </title>
-    <link rel="stylesheet" type="text/css" href="Assignment_4_Styles.css">
+    <link rel="stylesheet" type="text/css" href="assignment_4_styles.css">
 </head>
 
 <body class="center">
-    <img src="Lure_Salon.jpeg" alt="Lure Salon" class="center" />
+    <img src="Lure_Salon.jpeg" alt="Lure Salon" class="image1" />
     <br>
-    <ul>
-        <li><a href="#Assignment_4_Page">Home</a> </li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="assignment_4_index.html">Home</a></li>
+            <li>Shop Products</li>
+            <li><a href="our_team.html">Our Team</a> </li>
+            <li><a href="services.html">Services</a> </li>
+            <li>Book Now</li>
+            <li>QR Menu</li>
+            <li>Promotions</li>
+            <li><span class="bold"><a href="be_a_model.html">Be A Model</a></span> </li>
+        </ul>
+    </nav>
+    <div class="center3">
+        <h1>Be A Model</h1>
+
+        <p>Lure Salon aims to provide the highest skilled and experienced hairstylists in the business.
+            <br>
+            All stylists/colorists complete a rigorous training program and are required to work on models. Model nights are held Tuesdays, Wednesdays, and Fridays. Services are complimentary; however, models must be open to change - no small touch-ups or trims.
+            <br>
+            <br>
+            Looking to be a model? Please fill out the questionnaire below. (PICTURES ARE WELCOME)
+            <br>
+            <br>
+        <div class="left">
+            <form action="action_page.php">
+
+                <label for="sname">Sur Name</label>
+                <input type="text" id="sname" name="surname" placeholder="Your sur name...">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+
+                <label for="mobilenumber">Mobile Number</label>
+                <input type="text" id="mobilenumber" name="mobilenumber" placeholder="Your mobile number...">
+
+                <label for="date">Today's Date</label>
+                <input type="date" id="date" name="date" placeholder="MM/DD/YYYY">
+
+                <input type="file" id="file" name="filename">
+                <input type=submit">
+
+                <div class="center">
+                    <br>
+                    <input type="submit" value="Submit">
+
+            </form>
+        </div>
+        </p>
