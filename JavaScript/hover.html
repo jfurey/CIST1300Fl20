@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Welcome and Hover </title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+        .paragph {
+            font-size: 50px;
+
+            position: fixed;
+
+            left: 550px;
+
+            top: 100px;
+
+            color: brown;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function
+        trigger() {
+            document.getElementById("hover").addEventListener("mouseover", popup);
+
+            function
+            popup() {
+                alert("I love chocolate!");
+                alert("I love pizza!");
+            }
+        }
+
+    </script>
+</head>
+
+<body onload="trigger();">
+    <div class="main-block">
+        <h1>Sample Input Form</h1>
+
+        <p class="paragph" id="hover">Hover over me.... Please Please Please !!!</p>
+
+
+    </div>
+</body>
+
+</html>
